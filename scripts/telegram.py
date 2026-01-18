@@ -30,8 +30,8 @@ from src.datalake import write_channel_messages_json, write_manifest
 load_dotenv()
 
 # Validate required environment variables before proceeding
-api_id_str = os.getenv("Tg_API_ID")
-api_hash = os.getenv("Tg_API_HASH")
+api_id_str = os.getenv("api_id_str")
+api_hash = os.getenv("api_hash")
 
 if not api_id_str or not api_hash:
     print("ERROR: Missing Tg_API_ID or Tg_API_HASH in .env file")
@@ -331,7 +331,7 @@ Examples:
         #'@cheMed123',           # CheMed - Medical products
         #'@lobelia4cosmetics',   # Lobelia - Cosmetics and health products  
         '@tikvahpharma',
-        '@tenamereja'       # Tikvah Pharma - Pharmaceuticals
+        '@tenamereja'       
         # Add more channels from https://et.tgstat.com/medicine as needed
     ]
     
