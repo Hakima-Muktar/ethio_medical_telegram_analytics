@@ -1,0 +1,12 @@
+telethon
+python-dotenv
+pandas
+pytest
+telethon
+python-dotenv
+pandas
+pytest
+pytest-asyncio
+sqlalchemy
+psycopg2-binary
+dbt-postgres
