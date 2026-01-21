@@ -1,0 +1,14 @@
+medical_warehouse:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: "{{ env_var('POSTGRES_USER') }}"
+      password: "{{ env_var('POSTGRES_PASSWORD') }}"
+      port: 5433
+      dbname: "{{ env_var('POSTGRES_DB') }}"
+      schema: dbt_dev
+      threads: 1
+      keepalives_idle: 0
+      connect_timeout: 10
