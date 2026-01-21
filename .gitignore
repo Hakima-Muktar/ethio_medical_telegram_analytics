@@ -1,3 +1,25 @@
 
 venv/
 data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment variables
+.env
+logs/
+
+# DBT
+medical_warehouse/dbt_packages/
+medical_warehouse/target/
+medical_warehouse/logs/
+
+# IDE
+.vscode/
+.idea/
+
+
+yolov8n.pt
