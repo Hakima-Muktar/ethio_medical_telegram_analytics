@@ -1,0 +1,6 @@
+
+load_from:
+  - python_module:
+      module_name: orchestration.definitions
+      attribute: defs
+      working_directory: /home/karanos/kiam/week8/prod
